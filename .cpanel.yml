@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/madinash/public_html/
     - /bin/cp -R public/* $DEPLOYPATH
     - /bin/cp public/.htaccess $DEPLOYPATH
+    - cd /home/madinash/github-fitlife && composer install --no-dev --optimize-autoloader
